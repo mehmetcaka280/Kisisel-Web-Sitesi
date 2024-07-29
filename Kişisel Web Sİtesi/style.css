@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pexels-negativespace-97077.jpg);
+    background-size: cover;
+}
+.box{
+    width: 450px;
+    background-color: #3e3d3ec3;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: sans-serif;
+}
+.box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  cursor: pointer;
+  transition: .5s;
+}
+.box img:hover{
+    transform: scale(0.9);
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+  font-weight: 100; 
+}
+.box h5{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+    color: white;
+    font-size: 60px;
+    transition: all ease ease-in-out 250ms;
+    cursor: pointer;
+}
+.box li a:hover{
+    color: #b9b9b9;
+
+}
+@media screen and (max-width: 768px) {
+    .box {
+        padding: 30px;
+        margin-top: 10%;
+    }
+    
+    .box img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .box h1 {
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+    
+    .box h5 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    
+    .box li a {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .box {
+        padding: 20px;
+        margin-top: 15%;
+    }
+    
+    .box img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .box h1 {
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+    
+    .box h5 {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    
+    .box li a {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .box {
+        padding: 15px;
+        margin-top: 20%;
+    }
+    
+    .box img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .box h1 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .box h5 {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+    
+    .box li a {
+        font-size: 30px;
+    }
+}
